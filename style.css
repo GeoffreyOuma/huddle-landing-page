@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Mobile*/
+@media only screen and (min-width: 375px) {
+    #hero {
+        background-image: url(img/bg-hero-mobile.svg);
+        width: 100%;
+        height: 470px;
+        display: block;
+    }
+    
+    #hero-top {
+        display: flex;
+        column-gap: 200px;
+    }
+    
+    .logo {
+        width: 17%;
+    }
+    #hero-top button a {
+        font-size: 10p;
+    }
+    #hero-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 44px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+    
+    #container .column {
+        width: 100%;
+        height: 400px;
+        border: black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #cont {
+        width: 400px;
+        height: 110px;
+        border: none;
+        border-radius: 20px;
+        background-color: antiquewhite;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    #cont button {
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(224, 11, 117);
+    }
+    
+    #cont button a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .colm .fa {
+        font-size: 10px;
+        width: 14px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20%;
+    }
+
+    #socials .fa {
+        text-align: center;
+    }
+}
+
+#hero-top button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#hero-top button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18p;
+}
+
+#hero-bottom button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(224, 11, 117);
+    color: white;
+}
+
+#hero-bottom button a {
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+}
+
+#container .column {
+    width: 100%;
+    height: 400px;
+    border: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cont .butt {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(224, 11, 117);
+}
+
+#cont .butt a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(3, 58, 1);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: white;
+    bottom: 0;
+    padding: 13px;
+}
+
+#footer .colm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer .colm a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer .colm fa {
+    font-size: 18px;
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 1440px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+    }
+    #hero {
+        background-image: url(img/bg-hero-desktop.svg);
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-top {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1000px;
+    }
+    .logo {
+        width: 40%;
+    }
+    #hero-bottom {
+        display: flex;
+        flex-direction: row;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    #container .column {
+        width: 90%;
+        height: 400px;
+        border: black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+    }
+    #cont {
+        width: 400px;
+        height: 100px;
+        border-radius: 20px;
+        border-color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #footer {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(3, 58, 1);
+        display: flex;
+        flex-direction: row;
+        row-gap: 20px;
+        color: white;
+        bottom: 0;
+        padding: 20px;
+        font-size: 18px;
+        column-gap: 10%;
+    }
+    #footer .colm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+    .last {
+        display: flex;
+        flex-direction: column;
+        row-gap: 120px;
+    }
+    #socials .fa {
+        font-size: 30px;
+        padding: 0.4em;
+    }
+}
